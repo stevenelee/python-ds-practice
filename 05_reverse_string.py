@@ -9,4 +9,5 @@ def reverse_string(phrase):
     """
     phrase_list = list(phrase)
     phrase_list.reverse()
+    #TODO: slice this up
     return "".join(phrase_list)
